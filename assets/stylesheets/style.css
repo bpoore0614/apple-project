@@ -1,19 +1,22 @@
 .container {
     width: 75%;
-    margin: 0 auto;
+    margin: -58px auto;
     min-width: 820px;
+    position: relative;
+    top: 0;
+    
 }
 
 nav{
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    margin-left: -25%; 
+    position: relative;
+    top: 75px;
+    min-width: 800px;
     width: 50%;
     display: flex;
     background: linear-gradient(gray 0%, rgb(53, 52, 52) 50%, gray);
     border-radius: 3px;
     align-items: baseline;
+    margin: 0 auto;
     
 }
 
@@ -61,8 +64,6 @@ nav a:last-child{
     margin-top: 2px;
     margin-right: 4px;
     background-position: center;
-    flex: 1 1 calc(25% - 4px);
-    min-width: 200px;
 }
 
 .flex-container div:last-child{
@@ -71,15 +72,15 @@ nav a:last-child{
 
 .flex-container div:first-child{
     margin: 0;
-    flex: 1 1 100%;
+    background-position: bottom;
 }
 
 .hero-image{
     flex-basis: 100%;
     background: url(../images/hero.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom;
     height: 575px;
+    min-width: 850px;
 }
 
 .flex-text{
