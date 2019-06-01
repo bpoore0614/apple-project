@@ -97,7 +97,7 @@ nav a:last-child{
     background: url(../images/hero.jpg) no-repeat;
     background-size: cover;
     height: 575px;
-    min-width: 850px;
+    min-width: 812px;
 }
 
 .flex-text{
