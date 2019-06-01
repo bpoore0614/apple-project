@@ -10,8 +10,8 @@
 nav{
     position: relative;
     top: 75px;
-    min-width: 800px;
-    width: 50%;
+    width: 75%;
+    
     display: flex;
     background: linear-gradient(gray 0%, rgb(53, 52, 52) 50%, gray);
     border-radius: 3px;
@@ -38,7 +38,7 @@ nav i{
 nav input{
     display:inline-block; 
     margin: 0 5px;
-    width: 100%;
+    width: 75%;
     background: inherit;
     color:white;
     border: none;
